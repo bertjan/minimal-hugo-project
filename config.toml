@@ -1,0 +1,22 @@
+baseURL = "https://www.openvalue.eu/"
+languageCode = "en-us"
+title = "OpenValue"
+theme = "openvalue"
+publishDir = "generated"
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+[outputFormats.home]
+baseName = "index"
+mediatype = "text/html"
+isPlainText = true
+path = "/"
+
+[outputFormats.about]
+mediatype = "text/html"
+isPlainText = true
+path = "about"
+
+[outputs]
+    home = ["home", "about"]
+
+
